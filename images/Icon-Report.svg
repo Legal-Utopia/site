@@ -1,0 +1,25 @@
+<svg id="Icon_Report" data-name="Icon Report" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="36" viewBox="0 0 48 36">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b3b7f4"/>
+      <stop offset="1" stop-color="#a7bffb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f6ff"/>
+      <stop offset="1" stop-color="#dae4ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle" width="44" height="36" rx="4" fill="#757ae9"/>
+  <path id="Rectangle_Copy_118" data-name="Rectangle Copy 118" d="M4,0H40a4,4,0,0,1,4,4V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V4A4,4,0,0,1,4,0Z" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_Copy_120" data-name="Rectangle Copy 120" width="12" height="12" rx="1" transform="translate(25 13)" fill="url(#linear-gradient-2)"/>
+  <g id="Group_70" data-name="Group 70" transform="translate(30 4)">
+    <rect id="Rectangle-2" data-name="Rectangle" width="18" height="18" rx="2" fill="#00d4b0"/>
+    <path id="Path_103" data-name="Path 103" d="M0,5.165,3.815,1.43,5.839,3.3,9.5,0" transform="translate(4.5 5.904)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <circle id="Oval" cx="5.5" cy="5.5" r="5.5" transform="translate(8 14)" fill="url(#linear-gradient)"/>
+  <circle id="Oval_Copy_12" data-name="Oval Copy 12" cx="6" cy="6" r="6" transform="translate(8 13)" fill="url(#linear-gradient)"/>
+  <path id="Combined_Shape_Copy_8" data-name="Combined Shape Copy 8" d="M.083,7A6.005,6.005,0,0,1,7,.083V7Z" transform="translate(8 13)" fill="#4c50b1"/>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M.083,7A6.005,6.005,0,0,1,7,.083V7Z" transform="translate(6 11)" fill="url(#linear-gradient-2)"/>
+  <rect id="Rectangle_Copy_122" data-name="Rectangle Copy 122" width="11" height="2" rx="1" transform="translate(25 28)" fill="#4c50b1"/>
+  <rect id="Rectangle_Copy_121" data-name="Rectangle Copy 121" width="11" height="2" rx="1" transform="translate(8 28)" fill="#4c50b1"/>
+</svg>

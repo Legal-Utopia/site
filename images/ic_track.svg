@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ic_track</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Finance-Saas-Landingpage" transform="translate(-140.000000, -2658.000000)">
+            <g id="Group-8-Copy" transform="translate(135.000000, 2304.000000)">
+                <g id="Group-6-Copy" transform="translate(0.000000, 349.000000)">
+                    <g id="ic_track">
+                        <rect id="Rectangle" opacity="0.100000001" x="0" y="0" width="40" height="40" rx="10"></rect>
+                        <g id="Group-67" transform="translate(6.000000, 6.000000)">
+                            <rect id="Rectangle" fill="#19ceaf" transform="translate(22.960155, 22.960155) rotate(-45.000000) translate(-22.960155, -22.960155) " x="21.9601551" y="18.4601551" width="2" height="9"></rect>
+                            <rect id="Rectangle-Copy-116" fill="#FFFFFF" transform="translate(20.485281, 20.485281) rotate(-45.000000) translate(-20.485281, -20.485281) " x="19.4852814" y="19.4852814" width="2" height="2"></rect>
+                            <rect id="Rectangle-Copy-115" fill="#19ceaf" transform="translate(25.374369, 25.374369) rotate(-45.000000) translate(-25.374369, -25.374369) " x="23.3743687" y="20.8743687" width="4" height="9" rx="1"></rect>
+                            <circle id="Oval" stroke="#19ceaf" stroke-width="2" transform="translate(11.500000, 11.500000) rotate(-360.000000) translate(-11.500000, -11.500000) " cx="11.5" cy="11.5" r="11.5"></circle>
+                            <path d="M11.5,3 C16.1944204,3 20,6.80557963 20,11.5 C20,16.1944204 16.1944204,20 11.5,20 C10.8110528,20 10.1412497,19.918035 9.49980996,19.7633244 C13.2289949,18.864415 16,15.5058089 16,11.5 C16,7.49419106 13.2289949,4.13558503 9.4992523,3.23644947 C10.1412497,3.08196505 10.8110528,3 11.5,3 Z" id="Combined-Shape" fill="#BABCF4" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
