@@ -37,7 +37,7 @@
       posts = response.data.data
       var tiles = document.getElementById('tiles');
       for (var key in posts) {
-        tiles.innerHTML += `<a onclick='showBlog(${key})' class="tile"><img src=${posts[key].featured_image}><div class="text"><h3>${posts[key].title}</h3><p>By ${posts[key].author.first_name + ' ' + posts[key].author.last_name}</p></div></a>`
+        tiles.innerHTML += `<a onclick='showBlog(${key})' style="cursor: pointer" class="tile"><img src=${posts[key].featured_image}><div class="text"><h3>${posts[key].title}</h3><p>By ${posts[key].author.first_name + ' ' + posts[key].author.last_name}</p></div></a>`
       }
     })
     function showBlog(key) {
