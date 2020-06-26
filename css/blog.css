@@ -1,0 +1,71 @@
+#blog {
+  max-width: none;
+  padding: 0;
+  /* background-color: #edefef; */
+}
+#blog .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+@media (min-width: 300px) {
+  #blog .container .tile {
+    width: 43%;
+  }
+}
+@media (min-width: 1000px) {
+  #blog .container .tile {
+    width: 28%;
+  }
+}
+#blog .container .tile {
+  max-width: 550px;
+  min-width: 300px;
+  margin: 30px 0;
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+  transition: box-shadow .3s;
+  display: block;
+  text-decoration: none;
+}
+#blog .container .tile:hover {
+  box-shadow: 0 7px 40px 0 rgba(0,0,0,.4);
+}
+#blog .container .tile .text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  color: #111;
+}
+#blog .container .tile .text h3 {
+  color: black;
+  font-size: 28px;
+  margin: 30px 10% -10px 10%;
+}
+#blog .container .tile .text p {
+  font-size: 20px;
+  margin: 20px 10%;
+  padding: 0;
+}
+#blog .container .tile img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -6px;
+  transition: transform .3s
+}
+#blog .container .tile:hover img {
+  transform: scale(1.05);
+}
+#blog .container .tile button {
+  box-shadow: none;
+  padding: 0;
+  font-size: 25px;
+  margin: 0 10% 20px 10%;
+  width: 220px;
+}
