@@ -9,7 +9,7 @@
       <stop offset="1" stop-color="#dae4ff"/>
     </linearGradient>
   </defs>
-  <rect id="Rectangle" width="44" height="36" rx="4" fill="#757ae9"/>
+  <rect id="Rectangle" width="44" height="36" rx="4" fill="#5fc7c7"/>
   <path id="Rectangle_Copy_118" data-name="Rectangle Copy 118" d="M4,0H40a4,4,0,0,1,4,4V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V4A4,4,0,0,1,4,0Z" fill="url(#linear-gradient)"/>
   <rect id="Rectangle_Copy_120" data-name="Rectangle Copy 120" width="12" height="12" rx="1" transform="translate(25 13)" fill="url(#linear-gradient-2)"/>
   <g id="Group_70" data-name="Group 70" transform="translate(30 4)">
