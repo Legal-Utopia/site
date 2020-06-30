@@ -2168,8 +2168,8 @@ li {
     display: none;
   }
   .footer-grid {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: max-content;
+    grid-template-columns: max-content;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
@@ -2231,8 +2231,8 @@ li {
     margin-right: 0px;
   }
   .footer-grid {
-    -ms-grid-rows: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    -ms-grid-rows: none none none none;
+    grid-template-rows: none none none none;
   }
   .question-title {
     -webkit-box-flex: 1;
