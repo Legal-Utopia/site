@@ -2224,7 +2224,7 @@ li {
     display: none;
   }
   .button-blue {
-    display: none;
+    display: block;
     color: #fff;
   }
   .legal {
