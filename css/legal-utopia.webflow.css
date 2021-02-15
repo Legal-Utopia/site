@@ -64,6 +64,10 @@ li {
   margin-bottom: 20px;
 }
 
+.centre-text{
+    text-align: center;
+}
+
 .header {
   position: relative;
   display: -webkit-box;

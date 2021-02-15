@@ -1814,7 +1814,7 @@ textarea.w-select {
 }
 
 .slider .slide-track {
-  animation: moveSlideshow 30s infinite !important;
+  animation: moveSlideshow 50s infinite !important;
   animation-iteration-count: infinite;
   display: flex;
   width: calc(500px * 500) !important;
@@ -1835,9 +1835,29 @@ textarea.w-select {
 }
 
 @keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-66.6666%);  
+  0%{
+    transform: translateX(65%);
   }
+  100% { 
+    transform: translateX(-64.6666%);
+  }
+  0%{
+    transform: translateX(60%);
+  }
+}
+
+.fade{
+    display: inline-block;
+    color: black;
+    animation: fadeOut ease 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+@keyframes fadeOut {
+    0% {opacity:1;}
+    50% {opacity:0;}
+    100% {opacity:1;}
 }
 
 .footableOdd td, .footableEven td{
