@@ -1,9 +1,6 @@
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
-  grid-auto-columns: 1fr;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   grid-row-gap: 16px;
@@ -1183,6 +1180,12 @@ li {
   align-items: center;
   color: #000;
   text-decoration: none;
+}
+
+.question-header {
+  color: #2e2e3d;
+  font-size: 38px;
+  font-weight: 500;
 }
 
 .question-title {
