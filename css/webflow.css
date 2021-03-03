@@ -570,7 +570,9 @@ textarea.w-select {
 }
 .w-col-6 {
   width: 50%;
-  float:right;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .w-col-7 {
   width: 58.33333333%;
@@ -589,6 +591,11 @@ textarea.w-select {
 }
 .w-col-12 {
   width: 100%;
+}
+
+.w-col-13{
+    width:50%;
+    float:right;
 }
 .w-hidden-main {
   display: none !important;
