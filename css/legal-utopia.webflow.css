@@ -2844,3 +2844,23 @@ li {
   width: 250px;
   margin: 30px 10px;
 }
+
+  .graphic_left {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+  }
+  .text_right {
+    display: inline-block;
+    width: 70%;
+    margin-left: 31.6%;
+  }
+  
+  .graphic_auth{
+      text-align: center; 
+      position: relative;
+      margin-top: 10%;
+      top: 50%; 
+      left: 47%;
+      transform: translate(-50%, -50%);
+  }
