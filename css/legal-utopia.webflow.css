@@ -2856,6 +2856,24 @@ li {
     margin-left: 31.6%;
   }
   
+   .text_right_clipboard{
+    display: inline-block;
+    width: 80%;
+    margin-left: 26.6%;
+  }
+  
+  .text_left {
+    display: inline-block;
+    width: 75%;
+    margin-right: 31.6%;
+  }
+  
+  
+  .sol_text_right{
+    width: 70%;
+    margin-left: 31.6%;
+  }
+  
   .graphic_auth{
       text-align: center; 
       position: relative;
