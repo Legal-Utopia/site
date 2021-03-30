@@ -2895,3 +2895,24 @@ li {
     top: 110px; left: 0px; right: 90px; bottom: 0px;
 }
 .re-size_img_left img { height: auto; width: 38%; }
+
+ .re-size_img_left_clipboard {
+    position: absolute;
+    top: 30px; left: 0px; right: 0px; bottom: 0px;
+}
+.re-size_img_left_clipboard img { height: auto; width: 30%; }
+
+ .re-size_img_left_box {
+    position: absolute;
+    top: 30px; left: 0px; right: 0px; bottom: 0px;
+}
+.re-size_img_left_box img { height: auto; width: 50%; }
+
+ .re-size_img_right_comp {
+    position: absolute;
+    top:30px;
+    /*top: 30px; left: 900px; right: 0px; bottom: 0px;*/
+    float:right;
+    text-align: right;
+}
+.re-size_img_right_comp img { height: auto; width: 42%; }
