@@ -2885,6 +2885,13 @@ li {
       position: relative;
       margin-top: 15%;
       top: 50%; 
-      left: 20%;
+      left: 240px;
       transform: translate(-50%, -50%);
   }
+  
+  
+ .re-size_img_left {
+    position: absolute;
+    top: 110px; left: 0px; right: 90px; bottom: 0px;
+}
+.re-size_img_left img { height: auto; width: 38%; }
