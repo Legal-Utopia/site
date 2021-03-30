@@ -2856,6 +2856,12 @@ li {
     margin-left: 31.6%;
   }
   
+  .text_right_career{
+    display: inline-block;
+    width: 65%;
+    margin-left: 35.6%;
+  }
+  
    .text_right_clipboard{
     display: inline-block;
     width: 80%;
