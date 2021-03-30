@@ -2883,8 +2883,8 @@ li {
   .graphic_auth{
       text-align: center; 
       position: relative;
-      margin-top: 10%;
+      margin-top: 15%;
       top: 50%; 
-      left: 47%;
+      left: 20%;
       transform: translate(-50%, -50%);
   }
