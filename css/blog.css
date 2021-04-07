@@ -16,7 +16,7 @@
 }
 @media (min-width: 1000px) {
   #blog .container .tile {
-    width: 28%;
+    width: 29%;
   }
 }
 #blog .container .tile {
@@ -54,7 +54,7 @@
   padding: 0;
 }
 #blog .container .tile img {
-  width: 100%;
+  width: 50%;
   height: auto;
   margin-bottom: -6px;
   transition: transform .3s
