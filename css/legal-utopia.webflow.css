@@ -947,6 +947,17 @@ li {
   text-align: center;
 }
 
+.button-white {
+  padding: 16px 25px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+}
+
 .pricing-section {
   padding: 100px 3% 140px;
   background-color: #f5f7ff;
@@ -2998,3 +3009,21 @@ li {
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(288px);;}
 .carousel__cell:nth-child(2) { transform: rotateY( 120deg) translateZ(288px);;}
 .carousel__cell:nth-child(3) { transform: rotateY( 240deg) translateZ(288px);;}
+
+.wrapper { 
+  width:100%;
+}
+
+.wrapper div {
+   padding: 150px;
+   width: 100%
+}
+#one {
+  background-color: #5FC7C7;
+  float:left; 
+  width:50%;
+}
+#two {
+  background-color: #9ED3DB;
+}
+
