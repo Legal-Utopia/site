@@ -1837,7 +1837,7 @@ textarea.w-select {
 }
 
 .slider .slide-track {
-  animation: moveSlideshow 50s infinite !important;
+  animation: moveSlideshow 60s infinite !important;
   animation-iteration-count: infinite;
   display: flex;
   width: calc(500px * 500) !important;
