@@ -3010,23 +3010,6 @@ li {
 .carousel__cell:nth-child(2) { transform: rotateY( 120deg) translateZ(288px);;}
 .carousel__cell:nth-child(3) { transform: rotateY( 240deg) translateZ(288px);;}
 
-.wrapper { 
-  width:100%;
-}
-
-.wrapper div {
-   padding: 150px;
-   width: 100%
-}
-#one {
-  background-color: #5FC7C7;
-  float:left; 
-  width:50%;
-}
-#two {
-  background-color: #9ED3DB;
-}
-
 /* Create two equal columns that floats next to each other */
 .CScolumn {
   float: left;
@@ -3037,6 +3020,21 @@ li {
 
 /* Clear floats after the columns */
 .CSrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two equal columns that floats next to each other */
+.Indexcolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.Indexrow:after {
   content: "";
   display: table;
   clear: both;
