@@ -329,7 +329,7 @@ label {
   height: 38px;
   padding: 8px 12px;
   margin-bottom: 10px;
-  
+
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -1869,7 +1869,7 @@ textarea.w-select {
   0%{
     transform: translateX(65%);
   }
-  100% { 
+  100% {
     transform: translateX(-64.6666%);
   }
   0%{
@@ -1895,5 +1895,5 @@ through multiple text
 */
 
 .footableOdd td, .footableEven td{
-  padding: 20px 0px;
+  padding: 20px 5px;
 }
