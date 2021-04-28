@@ -3082,3 +3082,14 @@ li {
   clear: both;
 }
 
+.solicitor_price_row{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.solicitor_price_column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
