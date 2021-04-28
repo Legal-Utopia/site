@@ -1107,7 +1107,7 @@ li {
   background-repeat: no-repeat;
 }
 
-.cta-sectionCS {
+.cta-section_center {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1741,7 +1741,7 @@ li {
   
 }
 
-.title-wrap-centre-CS {
+.title-wrap-centre-center {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
