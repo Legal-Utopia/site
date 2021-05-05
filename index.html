@@ -462,10 +462,10 @@
         </div>
     </div>
 
-   
+
     <object type="image/svg+xml" data="./images/New Banner 3.svg" style="width:100%;"></object>
-    
-    
+
+
     <div class="content-section">
         <div class="container">
             <div class="w-layout-grid content-grid">
@@ -541,7 +541,7 @@
     </div>
 
 
-    <div class="container">            
+    <div class="container">
         <div class="Indexrow">
             <div class="Indexcolumn" style="background-color:#5FC7C7; text-align: center; padding:25px;">
                 <h3 style="color: white; font-size: 28px;">Membership</h3>
@@ -641,18 +641,26 @@
             <div class="w-form">
                 <form id="newsletter-form" name="newsletter-form" data-name="Newsletter Form"
                       action="https://formspree.io/mzbjjnkr" method="POST">
-                    <div class="w-row">
-                        <div class="w-col-13">
-                            <input type="email" class="w-input" style="width:100%; height: auto;" maxlength="256" name="email" data-name="Email"
-                                   placeholder="Enter your Email Address to join our mailing list" id="email" required="">
-                            <input type="checkbox" required name="privacy" style="margin-left: 66%; height: auto; width: 3%">
-                            <label style="display: inline; float: right; height: auto;" for="Privacy">I Agree to <a href="privacy-policy.html">Privacy Policy</a></label>
-                        </div>
-
-                        <div class="w-col-13">
-                            <input type="submit" value="Join" data-wait="Please wait..." class="w-button button-blue" style="margin-top: 13%; margin-left: 175.5%; height:auto; width: 25%">
-                        </div>
-                    </div>
+                      <div class="w-row">
+                          <div class="w-col-13" style="height: 200px; position: relative;" >
+                              <input type="email" class="w-input" style="width:100%" maxlength="256" name="email" data-name="Email"
+                                     placeholder="Enter your Email Address to join our mailing list" id="email" required="">
+                               <li style="list-style-type: none;">
+                                 <label style="display: inline; float: right" for="Privacy">
+                                   <input type="checkbox" required name="privacy" />
+                                   I Agree to <a href="privacy-policy.html">Privacy Policy</a>
+                                 </label>
+                               </li>
+                              <br>
+                               <li style="list-style-type: none;" >
+                                 <label style="display: inline; float: right; " for="Marketing">
+                                   <input type="checkbox" required name="marketing" />
+                                   I Agree to <a href="marketing-policy.html">Marketing Policy</a>
+                                 </label>
+                               </li>
+                               <input type="submit" value="Join" data-wait="Please wait..." class="w-button button-blue" style="margin-top: 2%; position: absolute; right: 0;">
+                          </div>
+                      </div>
                 </form>
                 <div class="w-form-done">
                     <div>Thank you! Your submission has been received!</div>
@@ -697,7 +705,7 @@
                     <p style="color: #353448; text-align: center;" class="paragraph">
                         <span style="font-size:12px">
                             Google Play and the Google Play logo are trademarks of Google LLC.
-                            iPhone and Apple are trademarks of Apple Inc., 
+                            iPhone and Apple are trademarks of Apple Inc.,
                             registered in the U.S. and other countries. Apple App Store
                             logos are trademarks of Apple Inc., registered in the U.S.
                             and other countries.
@@ -706,7 +714,7 @@
                 </div>
             </div>
 
-            <script id=“CookieDeclaration” src=“https://consent.cookiebot.com/4bfb70cb-fa17-4838-901b-5eaeef06283b/cd.js” 
+            <script id=“CookieDeclaration” src=“https://consent.cookiebot.com/4bfb70cb-fa17-4838-901b-5eaeef06283b/cd.js”
             type=“text/javascript” async></script>
 
         </div>
@@ -731,4 +739,3 @@
 </body>
 
 </html>
-
