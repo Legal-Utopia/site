@@ -60,8 +60,8 @@
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'https://legalutopia.services/success',
-      cancelUrl: 'https://legalutopia.services/canceled',
+      successUrl: 'https://legalutopia.services/success.html',
+      cancelUrl: 'https://legalutopia.services/for-solicitor.html',
     })
     .then(function (result) {
       if (result.error) {
