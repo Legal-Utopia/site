@@ -24,8 +24,8 @@
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'https://www.legalutopia.services/success',
-      cancelUrl: 'https://www.legalutopia.services/canceled',
+      successUrl: 'https://www.legalutopia.services/success.html',
+      cancelUrl: 'https://www.legalutopia.services/for-solicitor.html',
     })
     .then(function (result) {
       if (result.error) {
