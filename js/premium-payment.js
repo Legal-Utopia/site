@@ -23,7 +23,7 @@
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
       successUrl: 'https://legalutopia.services/success.html',
-      cancelUrl: 'https://legalutopia.services/for-solicitor.html',
+      cancelUrl: 'https://www.legalutopia.services/canceled.html',
     })
     .then(function (result) {
       if (result.error) {
