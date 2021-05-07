@@ -1853,6 +1853,9 @@ textarea.w-select {
 .slider .slide .smallLogo {
   height: auto;
   width: 200px;
+  /* width: auto;
+  margin-left: 10px;
+  margin-right: 10px; */
   position: absolute;
   top: 50%;
   transform: translateY(-50%) !important;
@@ -1863,7 +1866,7 @@ textarea.w-select {
   width: 200px;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%) !important;
+  transform: translateY(-100%) !important; /* was -50% before */
 }
 
 @keyframes moveSlideshow {
