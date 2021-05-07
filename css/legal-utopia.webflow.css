@@ -3108,9 +3108,10 @@ li {
   width: 33.33%;
   padding: 5px;
 }
-
+a{
+    color:#9B98BD;
+}
 a:hover{
-    display: box;
-    color:#9ED3DB;
+    color:#28224B;
     box-shadow: 10%;
 }
