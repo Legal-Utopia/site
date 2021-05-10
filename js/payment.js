@@ -1,21 +1,14 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/*Script for the button which corresponds to the £99.99 price tag*/
 (function() {
-  var stripe = Stripe('pk_test_FDPtusaaQazanMehraItyOz100isLaJZhO');
+  var stripe = Stripe('pk_live_l7EQ68G1zeTNVBfofXYssGE900JHYvEJ8Q');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1InhMEG1VXL5zVgO11WBTje2');
+  var checkoutButton = document.getElementById('checkout-button-price_1IpbANG1VXL5zVgOBTjBEAFJ');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1InhMEG1VXL5zVgO11WBTje2', quantity: 1}],
+      lineItems: [{price: 'price_1IpbANG1VXL5zVgOBTjBEAFJ', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
@@ -40,18 +33,17 @@
   });
 })();
 
-/*Script for the button which corresponds to the £149.99 price tag*/
 (function() {
-  var stripe = Stripe('pk_test_FDPtusaaQazanMehraItyOz100isLaJZhO');
+  var stripe = Stripe('pk_live_l7EQ68G1zeTNVBfofXYssGE900JHYvEJ8Q');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1InhPzG1VXL5zVgOImEwem3X');
+  var checkoutButton = document.getElementById('checkout-button-price_1IpbBOG1VXL5zVgODPQzgFNR');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1InhPzG1VXL5zVgOImEwem3X', quantity: 1}],
+      lineItems: [{price: 'price_1IpbBOG1VXL5zVgODPQzgFNR', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
@@ -76,19 +68,17 @@
   });
 })();
 
-/*Additional fees code*/
-
 (function() {
-  var stripe = Stripe('pk_test_FDPtusaaQazanMehraItyOz100isLaJZhO');
+  var stripe = Stripe('pk_live_l7EQ68G1zeTNVBfofXYssGE900JHYvEJ8Q');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1Io8IvG1VXL5zVgOGnfueQoc');
+  var checkoutButton = document.getElementById('checkout-button-price_1IpbCLG1VXL5zVgOKUSE9Efu');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1Io8IvG1VXL5zVgOGnfueQoc', quantity: 1}],
+      lineItems: [{price: 'price_1IpbCLG1VXL5zVgOKUSE9Efu', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
@@ -112,5 +102,3 @@
     });
   });
 })();
-
-

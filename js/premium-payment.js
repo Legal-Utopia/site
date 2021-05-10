@@ -1,19 +1,14 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 (function() {
-  var stripe = Stripe('pk_test_FDPtusaaQazanMehraItyOz100isLaJZhO');
+  var stripe = Stripe('pk_live_l7EQ68G1zeTNVBfofXYssGE900JHYvEJ8Q');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1InhRTG1VXL5zVgO4fkFGKc0');
+  var checkoutButton = document.getElementById('checkout-button-price_1IpbBqG1VXL5zVgOAwtSl4J8');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1InhRTG1VXL5zVgO4fkFGKc0', quantity: 1}],
+      lineItems: [{price: 'price_1IpbBqG1VXL5zVgOAwtSl4J8', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
