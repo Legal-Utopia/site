@@ -3064,8 +3064,6 @@ li {
 }
 
 
-
-
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(288px);;}
 .carousel__cell:nth-child(2) { transform: rotateY( 120deg) translateZ(288px);;}
 .carousel__cell:nth-child(3) { transform: rotateY( 240deg) translateZ(288px);;}
@@ -3110,12 +3108,13 @@ li {
   width: 33.33%;
   padding: 5px;
 }
+
 a{
     color:#9B98BD;
 }
 a:hover{
     color:#28224B;
-    box-shadow: 10%;
+    box-shadow: 10px;
 }
 
 .iframe-responsive{
