@@ -3117,3 +3117,17 @@ a:hover{
     color:#28224B;
     box-shadow: 10%;
 }
+
+.iframe-responsive{
+  position: relative;
+  width: 69%;
+  padding-bottom: 35.25%; 
+  height: 0;
+}
+.iframe-responsive iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
