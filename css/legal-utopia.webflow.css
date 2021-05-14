@@ -1929,6 +1929,62 @@ li {
   margin-top: 50px;
 }
 
+.CSp{
+  width:45%;
+  margin-left:5%"
+}
+
+.CSimg{
+  height: auto;
+  width:100%;
+  margin-bottom: 60%
+}
+
+/* Create two equal columns that floats next to each other */
+.CScolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 800px; /* Should be removed. Only for demonstration */
+}
+
+
+.iframe-responsive{
+  position: relative;
+  width: 69%;
+  padding-bottom: 35.25%;
+  height: 0;
+}
+.iframe-responsive iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-responsive-career{
+  position: relative;
+  width: 50%;
+  padding-bottom: 15.25%;
+  height: 0;
+}
+.iframe-responsive-career iframe{
+  position: absolute;
+  top:-25px;
+  left: 170px;
+  width: 100%;
+  height: 150%;
+}
+
+#lawtechvid{
+  position:absolute;
+  top:50px;
+  height:70%;
+  width:17.5%;
+
+}
+
 @media screen and (min-width: 1920px) {
   .paragraph {
     display: block;
@@ -2198,6 +2254,10 @@ li {
     background-color: #fff;
     box-shadow: 0 50px 80px -30px rgba(53, 52, 72, 0.2);
   }
+  .CScolumn {
+    padding: 10px;
+    height: 600px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2269,14 +2329,22 @@ li {
   .CSh3{
     font-size: 5vw;
   }
+
+  .CSp{
+    width: 100%;
+  }
+
+  .CScolumn {
+    padding: 10px;
+    height: 500px;
+  }
+  .iframe-responsive{
+    width: 100%;
+    padding-top: 56.25%;
+    padding-bottom: 0%;
+    height: 0;
+  }
 }
-
-/* .CSh3{
-  font-size:42px;
-  margin-top: 50px;
-} */
-
-
 
 @media screen and (max-width: 479px) {
   .header {
@@ -2372,6 +2440,13 @@ li {
     -ms-grid-row-align: center;
     align-self: center;
     text-align: justify;
+  }
+  .CScolumn {
+    padding: 10px;
+    height: 400px;
+  }
+  .largeh2{
+    font-size:35px;
   }
 }
 
@@ -3068,13 +3143,7 @@ li {
 .carousel__cell:nth-child(2) { transform: rotateY( 120deg) translateZ(288px);;}
 .carousel__cell:nth-child(3) { transform: rotateY( 240deg) translateZ(288px);;}
 
-/* Create two equal columns that floats next to each other */
-.CScolumn {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 800px; /* Should be removed. Only for demonstration */
-}
+
 
 /* Clear floats after the columns */
 .CSrow:after {
@@ -3115,32 +3184,4 @@ a{
 a:hover{
     color:#28224B;
     box-shadow: 10px;
-}
-
-.iframe-responsive{
-  position: relative;
-  width: 69%;
-  padding-bottom: 35.25%; 
-  height: 0;
-}
-.iframe-responsive iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.iframe-responsive-career{
-  position: relative;
-  width: 50%;
-  padding-bottom: 15.25%; 
-  height: 0;
-}
-.iframe-responsive-career iframe{
-  position: absolute;
-  top:-25px;
-  left: 170px;
-  width: 100%;
-  height: 150%;
 }
