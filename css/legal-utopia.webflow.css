@@ -3157,6 +3157,7 @@ li {
   float: left;
   width: 50%;
   padding: 10px;
+  height: 100%;
 }
 
 /* Clear floats after the columns */
