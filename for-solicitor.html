@@ -48,44 +48,47 @@ and open the template in the editor.
                 -moz-osx-font-smoothing: grayscale;
             }
         </style>
-<!-- Hotjar Tracking Code for https://www.legalutopia.co.uk/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2417480,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+        <!-- Hotjar Tracking Code for https://www.legalutopia.co.uk/ -->
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () {
+                    (h.hj.q = h.hj.q || []).push(arguments)
+                };
+                h._hjSettings = {hjid: 2417480, hjsv: 6};
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script');
+                r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
         <script src="https://js.stripe.com/v3/"></script>
 
         <!-- Facebook Pixel Code -->
         <script>
-            !function (f, b, e, v, n, t, s)
-            {
-                if (f.fbq)
-                    return;
-                n = f.fbq = function () {
-                    n.callMethod ?
-                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq)
-                    f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window, document, 'script',
-                    'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '212823550611850');
-            fbq('track', 'PageView');
+    !function (f, b, e, v, n, t, s)
+    {
+        if (f.fbq)
+            return;
+        n = f.fbq = function () {
+            n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq)
+            f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '212823550611850');
+    fbq('track', 'PageView');
         </script>
     <noscript><img height="1" width="1" style="display:none"
                    src="https://www.facebook.com/tr?id=212823550611850&ev=PageView&noscript=1"
@@ -105,9 +108,9 @@ and open the template in the editor.
                 <nav role="navigation" class="nav-menu w-nav-menu">
                     <a href="index.html" class="nav-link w-nav-link">Features</a>
                     <a href="about-us.html" class="nav-link w-nav-link">About Us</a>
-                  <a href="http://legalutopiablog.wordpress.com" class="nav-link w-nav-link">Blog</a> 
+                    <a href="http://legalutopiablog.wordpress.com" class="nav-link w-nav-link">Blog</a> 
                     <a href="support.html" class="nav-link w-nav-link">Support</a>
-                   <a href="membership.html" class="nav-link w-nav-link">Membership</a>
+                    <a href="membership.html" class="nav-link w-nav-link">Membership</a>
                     <a href="for-solicitor.html" class="nav-link w-nav-link">Solicitor</a> 
                     <a href="contact-us.html" class="nav-link w-nav-link">Contact Us</a>
                     <a href="Careers.html" class="nav-link w-nav-link">Careers</a>
@@ -135,7 +138,7 @@ and open the template in the editor.
         <object type="image/svg+xml" data="./images/solicitor/standard membership/1 Standard Search.svg" style="width:100%;"></object>
         <object type="image/svg+xml" data="./images/solicitor/standard membership/2 Standard Book.svg" style="width:100%;"></object>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYAduSti-SsDRsVSuyafMtVFpXI_JE4A5rCxHahir_C0cE1Q/viewform" target="_blank">
-        <img src="./images/solicitor/standard membership/3 Standard Waiting List.svg" style="width:100%;" alt="Waiting List">
+            <img src="./images/solicitor/standard membership/3 Standard Waiting List.svg" style="width:100%;" alt="Waiting List">
         </a>
         <object type="image/svg+xml" data="./images/solicitor/standard membership/4 Standard Security.svg" style="width:100%;"></object>
         <object type="image/svg+xml" data="./images/solicitor/standard membership/5 Standard Benefits.svg" style="width:100%;"></object>
@@ -145,66 +148,66 @@ and open the template in the editor.
 
 
     <div class="container" style="padding: 5px;">
-        <div class="solicitor_price_row" style="box-sizing:border-box">
+        <div class="solicitor_price_row" style="box-sizing:border-box; width: 100%;">
             <div class="solicitor_price_column">
 
-   <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
+                <!-- Load Stripe.js on your website. -->
+                <script src="https://js.stripe.com/v3"></script>
 
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  id="checkout-button-price_1IpbANG1VXL5zVgOBTjBEAFJ"
-  role="link"
-  type="button"
->
-  <img src="./images/solicitor/6 Freelancer_1.png" style="width:71%;" alt="standard">
-</button>
+                <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                <button
+                    style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+                    id="checkout-button-price_1IpbANG1VXL5zVgOBTjBEAFJ"
+                    role="link"
+                    type="button"
+                    >
+                    <img src="./images/solicitor/6 Freelancer_1.png" style="width:71%;" alt="standard">
+                </button>
 
-<div id="error-message"></div>
-                
+                <div id="error-message"></div>
+
             </div>
-            
+
             <div class="solicitor_price_column">
-<!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
+                <!-- Load Stripe.js on your website. -->
+                <script src="https://js.stripe.com/v3"></script>
 
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  id="checkout-button-price_1IpbBOG1VXL5zVgODPQzgFNR"
-  role="link"
-  type="button"
->
- <img src="./images/solicitor/7 Standard_1.png" style="width:71%;" alt="standard">
-</button>
+                <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                <button
+                    style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+                    id="checkout-button-price_1IpbBOG1VXL5zVgODPQzgFNR"
+                    role="link"
+                    type="button"
+                    >
+                    <img src="./images/solicitor/7 Standard_1.png" style="width:71%;" alt="standard">
+                </button>
 
-<div id="error-message"></div>
+                <div id="error-message"></div>
 
             </div>
-            
-                        <div class="solicitor_price_column">
 
-                                
-<!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
+            <div class="solicitor_price_column">
 
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-  style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-  id="checkout-button-price_1IpbCLG1VXL5zVgOKUSE9Efu"
-  role="link"
-  type="button"
->
-   <img src="./images/solicitor/standard membership/Standard.png" style="width:71%;" alt="standard">
-</button>
 
-<div id="error-message"></div>
-  
-      
+                <!-- Load Stripe.js on your website. -->
+                <script src="https://js.stripe.com/v3"></script>
+
+                <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+                <button
+                    style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+                    id="checkout-button-price_1IpbCLG1VXL5zVgOKUSE9Efu"
+                    role="link"
+                    type="button"
+                    >
+                    <img src="./images/solicitor/standard membership/Standard.png" style="width:71%;" alt="standard">
+                </button>
+
+                <div id="error-message"></div>
+
+
             </div>
         </div>
-        <p style="font-style: italic">Payment is only required following notification of a successful application.</p>
+        <p style="font-style: italic; font-size: 16px;">Payment is only required following notification of a successful application.</p>
     </div>
 
 
@@ -481,7 +484,7 @@ and open the template in the editor.
                 <div id="w-node-a4feec956a10-ec956a02" class="footer-column"><a href="index.html" aria-current="page"
                                                                                 class="footer-link w--current">Home</a><a href="#Features" class="footer-link">Features</a><a
                                                                                 href="about-us.html" class="footer-link">About us</a>
-                  <a href="http://legalutopiablog.wordpress.com" class="footer-link">Blog</a> 
+                    <a href="http://legalutopiablog.wordpress.com" class="footer-link">Blog</a> 
                     <a href="support.html"class="footer-link">Support</a>
                     <a href="membership.html" class="footer-link">Membership</a>
                     <a href="for-solicitor.html" class="footer-link">For Solicitor</a> 
@@ -585,14 +588,15 @@ and open the template in the editor.
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
     <!-- Twitter universal website tag code -->
     <script>
-            !function (e, t, n, s, u, a) {
-                e.twq || (s = e.twq = function () {
-                    s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
-                }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
-                        a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))}(window, document, 'script');
-            // Insert Twitter Pixel ID and Standard Event data below
-            twq('init', 'o5wm7');
-            twq('track', 'PageView');
+    !function (e, t, n, s, u, a) {
+        e.twq || (s = e.twq = function () {
+            s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+        }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',
+                a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+    }(window, document, 'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init', 'o5wm7');
+    twq('track', 'PageView');
     </script>
     <!-- End Twitter universal website tag code -->
 
