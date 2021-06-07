@@ -3084,7 +3084,7 @@ li {
     position: absolute;
     top: 50px; left: 0px; right: 90px; bottom: 0px;
 }
-.re-size_img_left_career img { height: auto; width: 45%;}
+.re-size_img_left_career img { height: auto; width: 45%; float: left;}
 
  .re-size_img_left_inter {
     position: absolute;
