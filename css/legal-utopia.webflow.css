@@ -3020,9 +3020,7 @@ li {
   }
 
   .text_right_career{
-    display: inline-block;
-    width: 65%;
-    margin-left: 35.6%;
+    width: 100%;
   }
 
    .text_right_clipboard{
@@ -3081,10 +3079,10 @@ li {
 .re-size_img_right_comp img { height: auto; width: 42%; }
 
  .re-size_img_left_career {
-    position: absolute;
-    top: 50px; left: 0px; right: 90px; bottom: 0px;
+    float: left;
+    margin-top: 5%;
 }
-.re-size_img_left_career img { height: auto; width: 45%;}
+.re-size_img_left_career img { height: auto; width: 100%; max-width: 500px}
 
  .re-size_img_left_inter {
     position: absolute;
