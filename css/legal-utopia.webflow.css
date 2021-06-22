@@ -2522,6 +2522,17 @@ li {
   grid-row-start: 1;
 }
 
+#w-node-a3e637d5ce8a-ec956a03 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 7;
+  -ms-grid-column: 6;
+  grid-column-start: 6;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
 #w-node-a3eeefccae5f-e71ff414 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
