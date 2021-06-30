@@ -19,4 +19,3 @@ function carousel() {
   setTimeout(carousel, 10000); // Change image every 10 seconds
 }
 
-
