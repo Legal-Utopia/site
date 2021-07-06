@@ -3119,7 +3119,6 @@ li {
 
 .mySlides {display:none;}
 
-
 /* Clear floats after the columns */
 .CSrow:after {
   content: "";
@@ -3232,17 +3231,18 @@ a:hover{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  0% {opacity: .4} 
+  100% {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  0% {opacity: .4} 
+  100% {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
 
