@@ -1101,11 +1101,34 @@ li {
   -ms-flex-align: center;
   align-items: center;
   background-color: #5fc7c7;
+  background-image: url('../images/CTA.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-section1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 300px;
+  padding: 60px 3%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #5fc7c7;
   background-image: url('../images/Career/Careers Banner.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 .cta-section_center {
   display: -webkit-box;
