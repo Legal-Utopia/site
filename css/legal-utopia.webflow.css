@@ -3272,5 +3272,5 @@ a:hover{
 
 @keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
 
-@-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@-webkit-animation-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
 
