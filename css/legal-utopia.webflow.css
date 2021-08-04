@@ -3270,20 +3270,20 @@ a:hover{
 
 .animate-right{
     position:relative;
-    animation:animateright 0.4s
+    animation:animateright 1s
 }
 
 @keyframes animateright{
-    0%{right:-300px;
+    from{right:-300px;
          opacity:0} 
-    100%{right:0;
+    to{right:0;
        opacity:1}
 }
 
 @-webkit-keyframes animateright{
-    0%{right:-300px;
+    from{right:-300px;
          opacity:0} 
-    100%{right:0;
+    to{right:0;
        opacity:1}
 }
 
