@@ -3268,9 +3268,22 @@ a:hover{
   .prev, .next,.text {font-size: 11px}
 }
 
-.animate-right{position:relative;animation:animateright 0.4s}
+.animate-right{
+    position:relative;
+    animation:animateright 0.4s
+}
 
-@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@keyframes animateright{
+    0%{right:-300px;
+         opacity:0} 
+    100%{right:0;
+       opacity:1}
+}
 
-@-webkit-animation-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+@-webkit-keyframes animateright{
+    0%{right:-300px;
+         opacity:0} 
+    100%{right:0;
+       opacity:1}
+}
 
