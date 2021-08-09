@@ -3270,7 +3270,8 @@ a:hover{
 
 .animate-right{
     position:relative;
-    animation:animateright 1s
+    animation:animateright 1s;
+    transform: translateZ(0); 
 }
 
 @keyframes animateright{
