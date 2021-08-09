@@ -3276,18 +3276,18 @@ a:hover{
 @keyframes animateright{
     from{right:-300px;
          opacity:0;
-    translateZ(0)} 
-    to{right:0;
+   } 
+    to{right:0px;
        opacity:1;
-    translateZ(0)}
+   }
 }
 
 @-webkit-keyframes animateright{
     from{right:-300px;
          opacity:0;
-    -webkit-transform:translateZ(0)} 
-    to{right:0;
+    } 
+    to{right:0px;
        opacity:1;
-    -webkit-transform:translateZ(0)}
+  }
 }
 
