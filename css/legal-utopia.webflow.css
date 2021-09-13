@@ -3271,7 +3271,7 @@ a:hover{
 .animate-right{
     position:relative;
     animation:animateright 1s;
-    transform: translateZ(0); 
+    -webkit-transform: translate3d(0, 0, 0); 
 }
 
 @keyframes animateright{
