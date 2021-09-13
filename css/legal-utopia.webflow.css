@@ -3272,6 +3272,8 @@ a:hover{
     position:relative;
     animation:animateright 1s;
     -webkit-transform: translate3d(0, 0, 0); 
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
 }
 
 @keyframes animateright{
