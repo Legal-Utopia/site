@@ -1612,13 +1612,74 @@ textarea.w-select {
   margin-left: auto;
   margin-right: auto;
 }
+
+.call{
+    position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #222222;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;  
+}
 .w-nav-link.w--current {
   color: #0082f3;
 }
+
+.nav-links a{
+    font-size: 20px;
+}
+
 .w-nav-menu {
   position: relative;
   float: right;
 }
+
+.w-nav-menu:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.w-nav-menu ul{
+    list-style: none;
+    margin: 0;
+}
+
+.w-nav-menu > ul > li{
+    float: left;
+    position: relative;
+}
+
+.w-nav-menu ul li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.w-nav-menu ul li a:hover{
+    background: #5fc7c7;
+    color: #fff;
+}
+
+.w-nav-menu ul ul{
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+
+.w-nav-menu ul li:hover > ul{
+    display: block;
+    background-color: #fff;
+}
+
+
+
 [data-nav-menu-open] {
   display: block !important;
   position: absolute;
@@ -1704,6 +1765,9 @@ textarea.w-select {
   .w-nav[data-collapse="medium"] .w-nav-button {
     display: block;
   }
+    .call{
+      display: none;
+  }
 }
 @media screen and (max-width: 767px) {
   .w-nav[data-collapse="small"] .w-nav-menu {
@@ -1714,8 +1778,10 @@ textarea.w-select {
   }
   .w-nav-brand {
     padding-left: 10px;
+  } 
+    .call{
+      display: none;
   }
-
 }
 @media screen and (max-width: 479px) {
   .w-nav[data-collapse="tiny"] .w-nav-menu {
@@ -1723,6 +1789,9 @@ textarea.w-select {
   }
   .w-nav[data-collapse="tiny"] .w-nav-button {
     display: block;
+  }
+  .call{
+      display: none;
   }
 }
 .w-tabs {

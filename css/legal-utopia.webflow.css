@@ -942,9 +942,34 @@ li {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  border-radius: 4px;
+  border-radius: 7px;
   background-color: #5fc7c7;
   text-align: center;
+}
+
+.button-blue:hover{
+    background-color:#9be8de;
+}
+
+.call-button{
+  padding: 16px 25px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border-radius: 7px;
+  background-color: #5fc7c7;
+  text-align: center;
+  color:black; 
+  background-color: #fff;             
+  outline-style: solid; 
+  outline-color: #3898EC; 
+  outline-width: 1px;
+}
+
+.call-button:hover{
+    background-color:#9be8de;
+    color: #fff;
 }
 
 .button-white {

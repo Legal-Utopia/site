@@ -100,40 +100,46 @@ and open the template in the editor.
         <div class="navigation-container">
             <div class="navigation-left">
                 <a href="index.html" aria-current="page" class="brand w-nav-brand w--current">
-                    <img src="images/LU-Logo.png" width="56" srcset="images/LU-Logo.png 500w, images/LU-Logo.png 512w"
+                    <img src="images/LU-Logo.png" width="96" srcset="images/LU-Logo.png 500w, images/LU-Logo.png 512w"
                          sizes="56px" alt="">
                 </a>
                 <nav role="navigation" class="nav-menu w-nav-menu">
-                    <a href="index.html" class="nav-link w-nav-link">Features</a>
-                    <a href="about-us.html" class="nav-link w-nav-link">About Us</a>
-                    <a href="research-page.html" class="nav-link w-nav-link">Research</a>
-                    <a href="http://legalutopiablog.wordpress.com" class="nav-link w-nav-link" target="_blank">Blog</a> 
-                    <a href="support.html" class="nav-link w-nav-link">Support</a>
-                    <a href="enterprise.html" class="nav-link w-nav-link">Enterprise</a>
-                    <a href="for-solicitor.html" class="nav-link w-nav-link">Solicitor</a> 
-                    <a href="Careers.html" class="nav-link w-nav-link">Careers</a>
-                    <a href="coming_soon.html" class="nav-link w-nav-link">Coming Soon</a>
+
+                    <ul class="nav-links">
+                        <li><a href="#Features" class="nav-link w-nav-link">Features</a></li>
+                        <li><a href="support.html" class="nav-link w-nav-link">Support</a></li>
+                        <li><a href="enterprise.html" class="nav-link w-nav-link">Enterprise</a></li>
+                        <li><a href="for-solicitor.html" class="nav-link w-nav-link">Solicitor</a></li>
+                        <li><a href="#" class="nav-link w-nav-link">About Us</a>
+
+                            <ul>
+                                <li><a href="about-us.html" class="nav-link w-nav-link">Who we are</a></li>
+                                <li><a href="research-page.html" class="nav-link w-nav-link">Research</a></li>
+                                <li><a href="http://legalutopiablog.wordpress.com" class="nav-link w-nav-link" target="_blank">Blog</a></li>
+                                <li><a href="Careers.html" class="nav-link w-nav-link">Careers</a></li>
+                                <li><a href="coming_soon.html" class="nav-link w-nav-link">Innovations</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </nav>
             </div>
             
             
               <div class="menu-button w-nav-button">
                 <div class="icon w-icon-nav-menu"></div>
-                </div><a href="https://lawyers.legalutopia.co.uk/" target="_blank"
-                     class="button-blue w-button" style="padding:10px">Solicitor Portal</a>
+                </div>
+                <a href="tel:02039185630" class="call-button w-button call">
+                    <i class="fa fa-phone" aria-hidden="true"></i></a>
+            <a href="https://lawyers.legalutopia.co.uk/" target="_blank"
+                     class="button-blue w-button">Solicitor Portal</a>
                      
                      <div style="padding: 5px"></div>
             
             <div class="menu-button w-nav-button">
                 <div class="icon w-icon-nav-menu"></div>
             </div><a href="https://legalutopia.onelink.me/YGQA/8c78ead5"
-                     class="button-blue w-button">Download Now</a>
+                     class="button-blue w-button">Download App</a>
         </div>
-    </div>
-    
-    
-    <div class="container" style="padding: 5px; text-align: center;">
-            <img src="./images/solicitor/Solicitor Referral.png" style="width:50%;" alt="solicitor_referral">
     </div>
 
     <div class="cta-section_center">
@@ -155,6 +161,37 @@ and open the template in the editor.
             <a href="https://forms.gle/YM9Rc475iKvqfkhJ7" target="_blank">
                 <img src="./images/solicitor/3 Apply Now.svg" style="width:100%;" alt="Waiting List">
             </a>
+                <div class="container" style="padding: 5px;">
+        <div  style="box-sizing:border-box; text-align: center;">
+
+            <!-- Load Stripe.js on your website. -->
+            <script src="https://js.stripe.com/v3"></script>
+
+            <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+            <button
+                style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
+                id="checkout-button-price_1IpbBqG1VXL5zVgOAwtSl4J8"
+                role="link"
+                type="button"
+                >
+                <img src="./images/solicitor/Premium Solicitor Button .png" style="width:71%;" alt="premium"> 
+            </button>
+
+            <div id="error-message"></div>
+            
+            <div class="container" style="padding: 5px;">
+        <a href="./images/PDF documents/Terms of Sale (Premium Subscription) (Business).pdf" target="_blank">
+            <p>Terms of Sale (Premium Subscription)</p>
+        </a>
+    </div>
+
+    <script src="./js/premium-payment.js"></script>
+
+
+        </div>
+        <p style="font-style: italic; font-size: 12px;">Payment is only required following notification of a successful application.</p>
+        <p style="font-style: italic; font-size: 12px;">Freelance solicitors must be SRA-registered and trading under their own name.</p>
+    </div>
             <a href="mailto:customerservice@legalutopia.co.uk " target="_blank">
                 <img src="./images/solicitor/4 Book Demo.svg" style="width:100%;" alt="Waiting List">
             </a>
@@ -188,38 +225,6 @@ and open the template in the editor.
         <object type="image/svg+xml" data="./images/solicitor/premium membership/5 Premium Benefits.svg" style="width:100%;"></object>
     </div>
 
-    <div class="container" style="padding: 5px;">
-        <div  style="box-sizing:border-box; text-align: center;">
-
-            <!-- Load Stripe.js on your website. -->
-            <script src="https://js.stripe.com/v3"></script>
-
-            <!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-            <button
-                style="background-color:white;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-                id="checkout-button-price_1IpbBqG1VXL5zVgOAwtSl4J8"
-                role="link"
-                type="button"
-                >
-                <img src="./images/solicitor/Premium Solicitor Button .png" style="width:71%;" alt="premium"> 
-            </button>
-
-            <div id="error-message"></div>
-
-
-        </div>
-        <p style="font-style: italic; font-size: 12px;">Payment is only required following notification of a successful application.</p>
-        <p style="font-style: italic; font-size: 12px;">Freelance solicitors must be SRA-registered and trading under their own name.</p>
-    </div>
-
-    <div class="container" style="padding: 5px;">
-        <a href="./images/PDF documents/Terms of Sale (Premium Subscription) (Business).pdf" target="_blank">
-            <p>Terms of Sale (Premium Subscription)</p>
-        </a>
-    </div>
-
-    <script src="./js/premium-payment.js"></script>
-
     <div class="footer">
         <div class="container">
             <div class="w-layout-grid footer-grid">
@@ -229,27 +234,27 @@ and open the template in the editor.
                     <div class="social-icon-wrap-circles">
                         <a href="https://www.linkedin.com/company/legal-utopia" class="social-link-circle w-inline-block"
                            style="text-decoration: none; color: white" target="_blank">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i class="fa fa-phone fa-linkedin" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.facebook.com/legalutopia/?ref=aymt_homepage_panel&eid=ARDf9rpz10kU7ObIQTLwC0cCrg0BTG_PeXKaJdSPjUvx4Mx0BRYoCK6VFFm5S7NyBNG8aFuHkXRVz9yQ"
                            class="social-link-circle w-inline-block" style="text-decoration: none; color: white" target="_blank">
-                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa fa-phone fa-facebook-official" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.instagram.com/legalutopia/" class="social-link-circle w-inline-block"
                            style="text-decoration: none; color: white" target="_blank">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-phone fa-instagram" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.reddit.com/r/LegalUtopia/" class="social-link-circle w-inline-block"
                            style="text-decoration: none; color: white" target="_blank">
-                            <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+                            <i class="fa fa-phone fa-reddit-alien" aria-hidden="true"></i>
                         </a>
                         <a href="https://twitter.com/AiLegalutopia" class="social-link-circle w-inline-block"
                            style="text-decoration: none; color: white" target="_blank">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-phone fa-twitter" aria-hidden="true"></i>
                         </a>
                         <a href="https://legalutopia.co.uk/blog" class="social-link-circle w-inline-block"
                            style="text-decoration: none; color: white" target="_blank">
-                            <i class="fa fa-rss" aria-hidden="true"></i>
+                            <i class="fa fa-phone fa-rss" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="container" style="position: relative;">
@@ -270,7 +275,7 @@ and open the template in the editor.
                     <a href="enterprise.html" class="footer-link">Enterprise</a>
                     <a href="for-solicitor.html" class="footer-link">For Solicitor</a> 
                     <a href="Careers.html" class="footer-link">Careers</a>
-                    <a href="coming_soon.html" class="footer-link">Coming Soon</a>
+                    <a href="coming_soon.html" class="footer-link">Innovations</a>
                 </div>
                 <div id="w-node-a4feec956a2f-ec956a02" class="footer-column">
                     <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
