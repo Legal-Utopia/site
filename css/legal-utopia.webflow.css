@@ -937,18 +937,29 @@ li {
 }
 
 .button-blue {
-  padding: 16px 25px;
+  padding: 15px 20px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  border-radius: 7px;
+  border-radius: 25px;
   background-color: #5fc7c7;
   text-align: center;
 }
 
 .button-blue:hover{
     background-color:#9be8de;
+}
+
+.button-dark{
+   padding: 15px 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border-radius: 25px;
+  background-color: #1B4A8A;
+  text-align: center;
 }
 
 .call-button{
@@ -958,11 +969,10 @@ li {
   -ms-grid-row-align: center;
   align-self: center;
   border-radius: 7px;
-  background-color: #5fc7c7;
+  background-color: #fff;
+  color: #5fc7c7;
   text-align: center;
-  color:black; 
-  background-color:#9be8de;
-  color: #fff;
+  width: 96px;
 }
 
 
@@ -3188,6 +3198,56 @@ li {
 
 .mySlides {display:none;}
 
+/*Set dimensions of all images*/
+.gallery-img {
+  width: 300px;
+  height: 250px;
+}
+
+.carousel-container {
+  position: relative;
+  /*Hides images bleeding off page*/
+  overflow: hidden;
+  /*Centers div*/
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+
+.carousel-slide {
+  /*Flex allows image to bleed to end*/
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+
+#prevbutton {
+  /*Bases position of button on parent*/
+  position: absolute;
+  top: 50%;
+  /*Moves button back up half its size to vertically-align*/
+  margin-top: -15px;
+  left: 3%;
+  /*Brings layer to top*/
+  z-index: 10;
+  color: #2F4F4F	;
+  font-size: 30px;
+  cursor: pointer;
+  text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+#nextbutton {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  right: 3%;
+  z-index: 10;
+  color: #2F4F4F	;
+  font-size: 30px;
+  cursor: pointer;
+  text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
 /* Clear floats after the columns */
 .CSrow:after {
   content: "";
@@ -3209,6 +3269,23 @@ li {
   display: table;
   clear: both;
 }
+
+/* Create two equal columns that floats next to each other */
+.lawcolumn {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 100%;
+}
+
+/* Clear floats after the columns */
+.lawrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 
 .solicitor_price_row{
   content: "";
