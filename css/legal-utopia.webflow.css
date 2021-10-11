@@ -961,16 +961,10 @@ li {
   background-color: #5fc7c7;
   text-align: center;
   color:black; 
-  background-color: #fff;             
-  outline-style: solid; 
-  outline-color: #3898EC; 
-  outline-width: 1px;
+  background-color:#9be8de;
+  color: #fff;
 }
 
-.call-button:hover{
-    background-color:#9be8de;
-    color: #fff;
-}
 
 .button-white {
   padding: 16px 25px;
