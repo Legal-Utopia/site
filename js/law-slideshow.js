@@ -9,7 +9,7 @@ const prevBtn = document.querySelector('#prevbutton');
 const nextBtn = document.querySelector('#nextbutton');
 
 // Creates a counter to track which image we are on
-let counter = 1;
+let counter = 0;
 // Selects initial width of image so prog knows how much to slide left or right
 const size = carouselImages[0].clientWidth;
 // Moves carousel back to start with first image instead of clone

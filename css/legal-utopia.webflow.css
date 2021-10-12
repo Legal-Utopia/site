@@ -3200,7 +3200,7 @@ li {
 
 /*Set dimensions of all images*/
 .gallery-img {
-  width: 300px;
+  width: 350px;
   height: 250px;
 }
 
@@ -3227,7 +3227,7 @@ li {
   top: 50%;
   /*Moves button back up half its size to vertically-align*/
   margin-top: -15px;
-  left: 3%;
+  left: 0%;
   /*Brings layer to top*/
   z-index: 10;
   color: #2F4F4F	;
@@ -3240,7 +3240,7 @@ li {
   position: absolute;
   top: 50%;
   margin-top: -15px;
-  right: 3%;
+  right: 0%;
   z-index: 10;
   color: #2F4F4F	;
   font-size: 30px;
