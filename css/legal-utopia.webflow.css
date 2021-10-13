@@ -3287,13 +3287,13 @@ li {
 
 
 
-.solicitor_price_row{
+.three_graphics_row{
   content: "";
   clear: both;
   display: table;
 }
 
-.solicitor_price_column{
+.three_graphics_column{
   float: left;
   width: 33.33%;
   padding: 5px;
