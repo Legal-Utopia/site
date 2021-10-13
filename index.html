@@ -109,7 +109,20 @@
                    /></noscript>
     <!-- End Facebook Pixel Code -->
     
-    
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{905073883769800}',
+      xfbml      : true,
+      version    : '{v12.0}'
+    });
+    FB.AppEvents.logPageView();
+  };
+</script>
+
+<script async defer 
+  src="https://connect.facebook.net/en_US/sdk.js"></script>
+</script>
 
     <script>
         (function () {
