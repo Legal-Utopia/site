@@ -1744,6 +1744,7 @@ textarea.w-select {
   background-color: #C8C8C8;
   color: white;
 }
+
 .w-nav[data-collapse="all"] .w-nav-menu {
   display: none;
 }
@@ -1767,7 +1768,7 @@ textarea.w-select {
   .w-nav[data-collapse="medium"] .w-nav-button {
     display: block;
   }
-    .call{
+  .call{
       display: none;
   }
 }
