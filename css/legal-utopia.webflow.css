@@ -3201,7 +3201,7 @@ li {
 /*Set dimensions of all images*/
 .gallery-img {
   max-width: 100%;
-  min-width: 300px;
+  min-width: 250px;
   height: auto;
 }
 
@@ -3228,7 +3228,7 @@ li {
   top: 50%;
   /*Moves button back up half its size to vertically-align*/
   margin-top: -15px;
-  left: %;
+  left: 0%;
   /*Brings layer to top*/
   z-index: 10;
   color: #1B4A8A	;
