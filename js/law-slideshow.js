@@ -20,7 +20,7 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 // Add a function to track next button clicks
 nextBtn.addEventListener('click', function () {
   // If user reaches end of carousel, stop execution 
-  if (counter > carouselImages.length) return;
+  if (counter >= carouselImages.length - 1) return;
   carouselSlide.style.transition = 'transform 0.4s ease-in-out';
   // Add 1 to the counter 
   counter++;
