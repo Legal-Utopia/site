@@ -1750,6 +1750,7 @@ textarea.w-select {
 .w-nav[data-collapse="all"] .w-nav-button {
   display: block;
 }
+
 .w--nav-dropdown-open {
   display: block;
 }

@@ -2,7 +2,7 @@
 
 // Sets variables to return inner div and images
 const carouselSlide = document.querySelector('.carousel-slide');
-const carouselImages = document.querySelectorAll('.carousel-slide object');
+const carouselImages = document.querySelectorAll('.carousel-slide img');
 
 // Sets variables to return buttons
 const prevBtn = document.querySelector('#prevbutton');
@@ -20,7 +20,7 @@ carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 // Add a function to track next button clicks
 nextBtn.addEventListener('click', function () {
   // If user reaches end of carousel, stop execution 
-  if (counter >= carouselImages.length -1) return;
+  if (counter > carouselImages.length) return;
   carouselSlide.style.transition = 'transform 0.4s ease-in-out';
   // Add 1 to the counter 
   counter++;
