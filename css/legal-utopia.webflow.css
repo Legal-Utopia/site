@@ -3200,8 +3200,9 @@ li {
 
 /*Set dimensions of all images*/
 .gallery-img {
-  width: 350px;
-  height: 250px;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
 }
 
 .carousel-container {
@@ -3227,7 +3228,7 @@ li {
   top: 50%;
   /*Moves button back up half its size to vertically-align*/
   margin-top: -15px;
-  left: 0%;
+  left: %;
   /*Brings layer to top*/
   z-index: 10;
   color: #1B4A8A	;
