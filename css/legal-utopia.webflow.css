@@ -3230,7 +3230,7 @@ li {
   left: 0%;
   /*Brings layer to top*/
   z-index: 10;
-  color: #2F4F4F	;
+  color: #1B4A8A	;
   font-size: 30px;
   cursor: pointer;
   text-shadow: 2px 2px rgba(0,0,0,0.2);
@@ -3242,7 +3242,7 @@ li {
   margin-top: -15px;
   right: 0%;
   z-index: 10;
-  color: #2F4F4F	;
+  color: #1B4A8A	;
   font-size: 30px;
   cursor: pointer;
   text-shadow: 2px 2px rgba(0,0,0,0.2);
