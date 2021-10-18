@@ -937,7 +937,7 @@ li {
 }
 
 .button-blue {
-  padding: 15px 20px;
+  padding: 10px 40px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -952,7 +952,7 @@ li {
 }
 
 .button-dark{
-   padding: 15px 20px;
+   padding: 10px 30px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
