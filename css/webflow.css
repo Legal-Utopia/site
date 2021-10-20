@@ -1641,7 +1641,7 @@ textarea.w-select {
     content: '';
     clear: both;
     display: block;
-}
+} 
 
 .w-nav-menu ul{
     list-style: none;
