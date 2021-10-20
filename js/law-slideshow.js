@@ -7,6 +7,9 @@ const carouselImages = document.querySelectorAll('.carousel-slide img');
 // Sets variables to return buttons
 const prevBtn = document.querySelector('#prevbutton');
 const nextBtn = document.querySelector('#nextbutton');
+/*
+const prevB = document.querySelector('#prev');
+const nextB = document.querySelector('#next'); */
 
 // Creates a counter to track which image we are on
 let counter = 0;
