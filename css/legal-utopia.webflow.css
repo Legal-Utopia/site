@@ -826,6 +826,22 @@ li {
   grid-template-rows: auto;
 }
 
+.center-feature-block{
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 767px) {
+        .center-feature-block{
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .center-feature-block{
+        margin-left: 0%;
+    }
+}
+
 .legal-text {
   margin-top: 25px;
 }
