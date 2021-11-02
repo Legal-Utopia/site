@@ -978,6 +978,15 @@ li {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+    .button-dark{
+        padding: 10px 10px;
+    }
+    .button-blue {
+        padding: 10px 10px;
+    }
+}
+
 .call-button{
   padding: 16px 25px;
   -webkit-align-self: center;
