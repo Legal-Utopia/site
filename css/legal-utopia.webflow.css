@@ -3223,6 +3223,8 @@ li {
 
 .mySlides {display:none;}
 
+.lawSlides {display:none;}
+
 /*Set dimensions of all images*/
 .gallery-img {
   max-width: 100%;
@@ -3456,4 +3458,29 @@ a:hover{
        opacity:1;
   }
 }
+
+ .slide-right{
+    position:relative;
+    animation:slide-right 1s;
+    -webkit-transform: translate3d(0, 0, 0); 
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+}
+
+@keyframes slide-right{
+    from{right:-600px;
+         opacity:0;
+   } 
+    to{right:0px;
+       opacity:1;
+   }
+}
+
+@-webkit-keyframes slide-right{
+    from{right:-600px;
+         opacity:0;
+    } 
+    to{right:0px;
+       opacity:1;
+  }
 

@@ -4,8 +4,9 @@
  * and open the template in the editor.
  */
 
-var myIndex = 0;
+var myIndex = 0, lawIndex = 0;
 carousel();
+lawSlide();
 
 function carousel() {
   var i;
@@ -17,6 +18,18 @@ function carousel() {
   if (myIndex > x.length) {myIndex = 1;}    
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 10000); // Change image every 10 seconds
+}
+
+function lawSlide() {
+  var i;
+  var x = document.getElementsByClassName("lawSlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  lawIndex++;
+  if (lawIndex > x.length) {lawIndex = 1;}    
+  x[lawIndex-1].style.display = "block";  
+  setTimeout(lawSlide, 10000); // Change image every 10 seconds
 }
 
 
