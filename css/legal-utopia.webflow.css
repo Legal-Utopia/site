@@ -820,14 +820,14 @@ li {
 }
 
 .feature-grid {
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
 
 .center-feature-block{
-    margin-left: 20%;
+    margin-left: 0%;
 }
 
 @media screen and (max-width: 767px) {
